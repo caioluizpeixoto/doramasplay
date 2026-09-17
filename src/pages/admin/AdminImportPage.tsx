@@ -27,10 +27,7 @@ import {
   downloadCsvReport, 
   DetailedAnalysisSummary 
 } from '../../services/importService';
-import { 
-  SAMPLE_CATALOGO_2160_JSON, 
-  SAMPLE_MIGRACAO_SUCESSO_CSV 
-} from '../../services/sampleMigrationData';
+// Removido import de samples mockados
 import { MatchedImportRecord, ImportRecordStatus } from '../../types/database';
 import { showToast } from '../../components/common/Toast';
 
@@ -87,11 +84,7 @@ export const AdminImportPage: React.FC = () => {
 
   // Load sample data button
   const handleLoadSamples = () => {
-    setLegacyFileContent(SAMPLE_CATALOGO_2160_JSON);
-    setLegacyFileName('catalogo_2160.json (Amostra Real)');
-    setBunnyFileContent(SAMPLE_MIGRACAO_SUCESSO_CSV);
-    setBunnyFileName('migracao_sucesso.csv (Amostra Real)');
-    showToast('Amostras de teste reais carregadas! Clique em "Analisar arquivos".');
+    showToast('Amostras foram removidas da produção para segurança.');
   };
 
   // Run 3-level cross-match analysis
