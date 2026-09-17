@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="24" fill="#0E1016"/>
+  <rect x="2" y="2" width="96" height="96" rx="22" stroke="#282D3F" stroke-width="2"/>
+  <!-- Stylized D and Play triangle -->
+  <path d="M28 24C28 21.7909 29.7909 20 32 20H52C68.5685 20 82 33.4315 82 50C82 66.5685 68.5685 80 52 80H32C29.7909 80 28 78.2091 28 76V24Z" fill="url(#crimson_grad)"/>
+  <path d="M42 36H50C57.732 36 64 42.268 64 50C64 57.732 57.732 64 50 64H42V36Z" fill="#0E1016"/>
+  <polygon points="46,42 60,50 46,58" fill="#E50938"/>
+  <defs>
+    <linearGradient id="crimson_grad" x1="28" y1="20" x2="82" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF2A55"/>
+      <stop offset="1" stop-color="#B3072C"/>
+    </linearGradient>
+  </defs>
+</svg>
